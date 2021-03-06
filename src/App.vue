@@ -485,4 +485,67 @@ body {
   color: #fff;
 }
 
+@media screen and (max-width: 480px) {
+  .catchcopy {
+    position: absolute;
+    top: 40%;
+    left: 0%;
+    width: 90%;
+    text-align: center;
+  }
+  .news {
+    width: 100%;
+  }
+
+  .mission-content {
+    width: 90%;
+  }
+
+  .service {
+    height: 1150px;
+    margin-bottom: 0;
+  }
+
+  .service-img {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .service-img_second {
+    margin-top: 70%;
+  }
+
+  .service-content_inner {
+    width: 90%;
+    margin: 0 auto;
+    position: absolute;
+    left: 5%;
+    top: 75%;
+  }
+
+  .company {
+    margin-top: 10%;
+    flex-wrap: wrap;
+  }
+
+  .recruit-company_size {
+    width: 100%;
+    height: 300px;
+  }
+
+  .faq-title {
+    font-size: 40px;
+    margin-right: 7%;
+  }
+
+  .footer-bar {
+    text-align: center;
+    padding-left: 27%;
+  }
+
+  .top-footer small {
+    font-size: 14px;
+  }
+}
+
 </style>
